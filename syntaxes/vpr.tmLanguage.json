@@ -15,10 +15,10 @@
 			"include": "#types"
 		},
 		{
-			"include": "#identifiers"
+			"include": "#integers"
 		},
 		{
-			"include": "#integers"
+			"include": "#identifiers"
 		}
 	],
 	"repository": {
@@ -54,7 +54,7 @@
 			"patterns": [
 				{
 					"name": "variable.other.vpr",
-					"match": "\\b[[:alpha:]_][[:alnum:]_]*\\b"
+					"match": "[a-zA-Z_]*\\w"
 				}
 			]
 		},
