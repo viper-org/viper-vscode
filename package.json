@@ -1,9 +1,10 @@
 {
-  "name": "viper",
+  "name": "viper-code",
   "displayName": "Viper Language Support",
   "description": "Syntax Highlighting for Viper",
   "version": "0.0.1",
   "repository": "https://github.com/viper-org/viper-vscode",
+  "publisher": "viper-org",
   "engines": {
     "vscode": "^1.72.0"
   },
