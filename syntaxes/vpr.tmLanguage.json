@@ -3,6 +3,12 @@
 	"name": "Viper",
 	"patterns": [
 		{
+			"include": "#comments"
+		},
+		{
+			"include": "#strings"
+		},
+		{
 			"include": "#keywords"
 		},
 		{
@@ -13,9 +19,6 @@
 		},
 		{
 			"include": "#integers"
-		},
-		{
-			"include": "#strings"
 		}
 	],
 	"repository": {
@@ -23,14 +26,18 @@
 			"patterns": [
 				{
 					"name": "keyword.control.vpr",
-					"match": "\\b(let|return)\\b"
+					"match": "\\b(return)\\b"
+				},
+				{
+					"name": "keyword.other.vpr",
+					"match": "\\b(let)\\b"
 				}
 			]
 		},
 		"types": {
 			"patterns": [
 				{
-					"name": "type.vpr",
+					"name": "storage.type.vpr",
 					"match": "\\b(int8|int16|int32|int64)\\b"
 				}
 			]
@@ -38,8 +45,8 @@
 		"identifiers": {
 			"patterns": [
 				{
-					"name": "identifier.vpr",
-					"match": "[a-zA-Z_][a-zA-Z0-9_]"
+					"name": "variable.other.vpr",
+					"match": "\\b[[:alpha:]_][[:alnum:]_]*\\b"
 				}
 			]
 		},
