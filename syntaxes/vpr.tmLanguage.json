@@ -3,6 +3,9 @@
 	"name": "Viper",
 	"patterns": [
 		{
+			"include": "#comments"
+		},
+		{
 			"include": "#keywords"
 		},
 		{
@@ -19,6 +22,14 @@
 		}
 	],
 	"repository": {
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.vpr",
+					"match":"[//]{2}.*"
+				}
+			]
+		},
 		"keywords": {
 			"patterns": [
 				{
