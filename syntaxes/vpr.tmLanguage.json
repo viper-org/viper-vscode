@@ -54,7 +54,7 @@
 			"patterns": [
 				{
 					"name": "variable.other.vpr",
-					"match": "[a-zA-Z_]*\\w"
+					"match": "[+a-zA-Z_]\\w*"
 				}
 			]
 		},
