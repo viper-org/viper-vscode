@@ -1,0 +1,25 @@
+{
+  "name": "vpr",
+  "displayName": "Viper Language Support",
+  "description": "Syntax Highlighting for Viper",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "vpr",
+      "aliases": ["Viper", "vpr"],
+      "extensions": [".vpr"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "vpr",
+      "scopeName": "source.vpr",
+      "path": "./syntaxes/vpr.tmLanguage.json"
+    }]
+  }
+}
