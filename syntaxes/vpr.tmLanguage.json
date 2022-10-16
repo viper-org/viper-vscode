@@ -6,15 +6,51 @@
 			"include": "#keywords"
 		},
 		{
+			"include": "#types"
+		},
+		{
+			"include": "#identifiers"
+		},
+		{
+			"include": "#integers"
+		},
+		{
 			"include": "#strings"
 		}
 	],
 	"repository": {
 		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.vpr",
-				"match": "\\b(if|while|for|return)\\b"
-			}]
+			"patterns": [
+				{
+					"name": "keyword.control.vpr",
+					"match": "\\b(let|return)\\b"
+				}
+			]
+		},
+		"types": {
+			"patterns": [
+				{
+					"name": "type.vpr",
+					"match": "\\b(int8|int16|int32|int64)\\b"
+				}
+			]
+		},
+		"identifiers": {
+			"patterns": [
+				{
+					"name": "identifier.vpr",
+					"match": "[a-zA-Z_][a-zA-Z0-9_]"
+				}
+			]
+		},
+		"integers": {
+			"name": "integer.vpr",
+			"patterns": [
+				{
+					"name": "constant.numeric.vpr",
+					"match": "[0-9]"
+				}
+			]
 		},
 		"strings": {
 			"name": "string.quoted.double.vpr",
