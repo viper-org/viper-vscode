@@ -5,7 +5,7 @@
   "version": "1.0.1",
   "repository": "https://github.com/viper-org/viper-vscode",
   "publisher": "viper-org",
-  "icon": "./assets/viper.png",
+  "icon": "assets/viper.png",
   "engines": {
     "vscode": "^1.72.0"
   },

@@ -14,3 +14,5 @@ Currently, this extension only supports syntax highlighting but it plans to incl
 Initial Release, added logo
 
 ### 1.0.1
+
+Added icon for .vpr files
