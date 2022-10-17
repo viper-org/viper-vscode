@@ -2,7 +2,7 @@
   "name": "viper-code",
   "displayName": "Viper Language Support",
   "description": "Syntax Highlighting for Viper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": "https://github.com/viper-org/viper-vscode",
   "publisher": "viper-org",
   "icon": "assets/viper.png",
@@ -17,17 +17,16 @@
       "id": "vpr",
       "aliases": ["Viper", "vpr"],
       "extensions": [".vpr"],
-      "configuration": "./language-configuration.json"
+      "configuration": "./language-configuration.json",
+      "icon": {
+        "dark": "assets/viper.png",
+        "light": "assets/viper.png"
+      }
     }],
     "grammars": [{
       "language": "vpr",
       "scopeName": "source.vpr",
       "path": "./syntaxes/vpr.tmLanguage.json"
-    }],
-    "iconThemes": [{
-      "id": "viper",
-      "label": "Viper",
-      "path": "./fileicons/viper-icon-theme.json"
     }]
   }
 }
