@@ -1,0 +1,10 @@
+{
+    "iconDefinitions": {
+        "_vpr_file": {
+            "iconPath": "../assets/viper.png"
+        }
+    },
+    "fileExtensions": {
+        "vpr": "_vpr_file"
+    }
+}
