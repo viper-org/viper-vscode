@@ -11,5 +11,5 @@ Currently, this extension only supports syntax highlighting but it plans to incl
 
 ### 1.0.0
 
-Initial Release
+Initial Release, added logo
 
