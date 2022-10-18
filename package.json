@@ -2,7 +2,7 @@
   "name": "viper-code",
   "displayName": "Viper Language Support",
   "description": "Syntax Highlighting for Viper",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "repository": "https://github.com/viper-org/viper-vscode",
   "publisher": "viper-org",
   "icon": "assets/viper.png",
