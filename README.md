@@ -25,7 +25,7 @@ Fixed bug where icons did not show for any files other than Viper source files
 
 Updated language id to `viper` instead of `vpr`
 
-## 1.0.5
+## 1.0.6
 
 Removed white trimming from logo 
 Reduced minimum version to 1.22.0
