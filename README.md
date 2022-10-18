@@ -30,6 +30,6 @@ Updated language id to `viper` instead of `vpr`
 Removed white trimming from logo 
 Reduced minimum version to 1.22.0
 
-## 1.0.8
+## 1.0.9
 
 Add multi-line comments
