@@ -42,7 +42,7 @@
 				},
 				{
 					"name": "keyword.other.vpr",
-					"match": "\\b(let)\\b"
+					"match": "\\b(let|import)\\b"
 				},
 				{
 					"name": "constant.language",
@@ -54,7 +54,7 @@
 			"patterns": [
 				{
 					"name": "storage.type.vpr",
-					"match": "\\b(bool|void|int8|int16|int32|int64)\\b"
+					"match": "\\b(bool|void|int8|int16|int32|int64)\\b[\\*]*"
 				}
 			]
 		},

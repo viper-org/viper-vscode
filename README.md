@@ -34,7 +34,6 @@ Reduced minimum version to 1.22.0
 
 Add multi-line comments
 
-
 ### 1.1.0
 
 Add new types:
@@ -43,3 +42,8 @@ Add new types:
 Add new constants:
 * true
 * false
+
+### 1.1.1
+
+Add new keyword: `import`
+Add pointer types
