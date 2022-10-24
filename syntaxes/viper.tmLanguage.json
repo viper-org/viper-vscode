@@ -30,7 +30,7 @@
 				},
 				{
 					"name": "comment.block.vpr",
-					"match": "\\/\\*(\\s|\\S)*\\*\\/"
+					"match": "/\\*[\\s\\S]*\\*/"
 				}
 			]
 		},
@@ -43,6 +43,10 @@
 				{
 					"name": "keyword.other.vpr",
 					"match": "\\b(let)\\b"
+				},
+				{
+					"name": "constant.language",
+					"match": "\\b(true|false)\\b"
 				}
 			]
 		},
@@ -50,7 +54,7 @@
 			"patterns": [
 				{
 					"name": "storage.type.vpr",
-					"match": "\\b(int8|int16|int32|int64)\\b"
+					"match": "\\b(bool|void|int8|int16|int32|int64)\\b"
 				}
 			]
 		},

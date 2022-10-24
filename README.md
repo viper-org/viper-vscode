@@ -17,19 +17,29 @@ Initial Release, added logo
 
 Added icon for .vpr files
 
-## 1.0.2
+### 1.0.2
 
 Fixed bug where icons did not show for any files other than Viper source files
 
-## 1.0.4
+### 1.0.4
 
 Updated language id to `viper` instead of `vpr`
 
-## 1.0.6
+### 1.0.6
 
 Removed white trimming from logo 
 Reduced minimum version to 1.22.0
 
-## 1.0.9
+### 1.0.9
 
 Add multi-line comments
+
+
+### 1.1.0
+
+Add new types:
+* bool
+* void
+Add new constants:
+* true
+* false
