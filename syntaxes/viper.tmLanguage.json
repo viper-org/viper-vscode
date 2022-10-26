@@ -38,7 +38,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.vpr",
-					"match": "\\b(return)\\b"
+					"match": "\\b(return|if|else|while)\\b"
 				},
 				{
 					"name": "keyword.other.vpr",

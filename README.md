@@ -47,3 +47,10 @@ Add new constants:
 
 Add new keyword: `import`
 Add pointer types
+
+## 1.1.2
+
+Add new keywords:
+* while
+* if
+* else
