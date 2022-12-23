@@ -9,6 +9,9 @@
 			"include": "#strings"
 		},
 		{
+			"include": "#characters"
+		},
+		{
 			"include": "#keywords"
 		},
 		{
@@ -42,7 +45,7 @@
 				},
 				{
 					"name": "keyword.other.vpr",
-					"match": "\\b(let|import)\\b"
+					"match": "\\b(let|import|class|new|this|as)\\b"
 				},
 				{
 					"name": "constant.language",
@@ -79,6 +82,17 @@
 			"name": "string.quoted.double.vpr",
 			"begin": "\"",
 			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.vpr",
+					"match": "\\\\."
+				}
+			]
+		},
+		"characters": {
+			"name": "constant.character.vpr",
+			"begin": "'",
+			"end": "'",
 			"patterns": [
 				{
 					"name": "constant.character.escape.vpr",

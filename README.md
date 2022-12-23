@@ -54,3 +54,12 @@ Add new keywords:
 * while
 * if
 * else
+
+## 1.1.3
+
+Add new keywords:
+* class
+* this
+* new
+* as
+Add character constants
