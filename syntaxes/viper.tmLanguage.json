@@ -41,15 +41,15 @@
 			"patterns": [
 				{
 					"name": "keyword.control.vpr",
-					"match": "\\b(return|if|else|while)\\b"
+					"match": "\\b(return|if|else|while|for|break|continue)\\b"
 				},
 				{
 					"name": "keyword.other.vpr",
-					"match": "\\b(let|import|class|new|this|as)\\b"
+					"match": "\\b(let|global|func|import|export|using|struct|private|namespace|enum|this|sizeof)\\b"
 				},
 				{
 					"name": "constant.language",
-					"match": "\\b(true|false)\\b"
+					"match": "\\b(true|false|nullptr)\\b"
 				}
 			]
 		},
@@ -57,7 +57,7 @@
 			"patterns": [
 				{
 					"name": "storage.type.vpr",
-					"match": "\\b(bool|void|int8|int16|int32|int64)\\b[\\*]*"
+					"match": "\\b(bool|void|i8|i16|i32|i64|u8|u16|u32|u64)\\b[\\*]*"
 				}
 			]
 		},
@@ -65,7 +65,7 @@
 			"patterns": [
 				{
 					"name": "variable.other.vpr",
-					"match": "[+a-zA-Z_]\\w*"
+					"match": "@?[+a-zA-Z_]\\w*"
 				}
 			]
 		},
@@ -73,8 +73,20 @@
 			"name": "integer.vpr",
 			"patterns": [
 				{
-					"name": "constant.numeric.vpr",
-					"match": "[0-9]"
+					"name": "constant.numeric.dec.vpr",
+					"match": "[0-9]+"
+				},
+				{
+					"name": "constant.numeric.hex.vpr",
+					"match": "0x[0-9a-f]"
+				},
+				{
+					"name": "constant.numeric.oct.vpr",
+					"match": "0[0-7]+"
+				},
+				{
+					"name": "constant.numeric.bin.vpr",
+					"match": "0b[0|1]+"
 				}
 			]
 		},
