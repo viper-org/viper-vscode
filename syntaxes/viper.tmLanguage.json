@@ -41,11 +41,11 @@
 			"patterns": [
 				{
 					"name": "keyword.control.vpr",
-					"match": "\\b(return|if|else|while|for|switch|break|continue)\\b"
+					"match": "\\b(return|if|else|while|for|switch|case|default|break|continue)\\b"
 				},
 				{
 					"name": "keyword.other.vpr",
-					"match": "\\b(let|global|func|import|export|using|struct|private|namespace|enum|this|sizeof|case|default)\\b"
+					"match": "\\b(let|global|func|import|export|using|struct|private|namespace|enum|this|sizeof)\\b"
 				},
 				{
 					"name": "constant.language",
